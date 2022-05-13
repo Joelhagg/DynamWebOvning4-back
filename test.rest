@@ -1,0 +1,15 @@
+
+
+GET http://localhost:3000/api/adress
+
+###
+
+POST http://localhost:3000/api/adress
+Content-Type: application/json
+
+{
+    "name": "Testnamn2",
+    "streetName": "Testvägen2",
+    "streetNumber": "1122",
+    "mail": "tes2t@mail.com"
+}
